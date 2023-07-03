@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: #0097e6;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 60%;
+    height: 90vh;
+    background-color: #d6dbe1;
+    box-shadow:  0px 0px 100px rebeccapurple;
+    border-radius: 10px;
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo  img{
+    margin-top: 10px;
+    border-radius: 10px;
+    height:70px;
+    width: 70px;
+    display: flex;
+  
+}
+.welcomeNote{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcomeNote h2{
+    width: 50%;
+    text-align: center;
+    border: 2px  black solid;
+    border-radius: 2rem;
+    
+}
+.UserSection{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UserSection input{
+    font-size: large;
+    font-style: inherit;
+    height: 38px;
+    width: 60vh;
+    border-radius: 10px;
+    
+}
+.UserSection button{
+    text-decoration: none;
+    text-align: center;
+    color: #eceff0;
+    height: 38px;
+    border-radius: 10px;
+   
+}
+.category{
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.category h2,h4{
+    text-align: center;
+
+}
+.section{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section button{
+    margin:1rem;
+    height: 100px;
+}
