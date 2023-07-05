@@ -228,8 +228,8 @@ section .option_list .option:last-child{
 }
 .option_list .option.correct{
     color: #155724;
-    background: #d4edda;
-    border: 1px solid #c3e6cb;
+    background: #7be494;
+    border: 1px solid #7be494;
 
 }
 .option_list .option.incorrect{
@@ -320,8 +320,8 @@ footer button.show{
     justify-content: space-between;
     transform: translate(-50% -50%)scale(0.9);
  
-    opacity:00;
-    pointer-events: auto;
+    opacity:0;
+    pointer-events: none;
     transition: all 0.3s ease;
 }
 
@@ -334,13 +334,13 @@ footer button.show{
     font-size: 20px;
     font-weight: 600;
 }
-.result_box .score_txt span{
+.result_box .score_text span{
     display: flex;
     margin: 10px 0;
     font-size: 19px;
     font-weight: 500;
 }
-.result_box .score_txt span p{
+.result_box .score_text span p{
     padding: 0 4px;
     font-weight: 600;
 }
