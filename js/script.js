@@ -10,6 +10,13 @@ const time_line = document.querySelector('header .time_line');
 const timeText = document.querySelector('.timer .time_left');
 const timeCount = document.querySelector('.timer .timer_sec');
 
+
+
+
+
+
+
+
 start_btn.onclick=()=> {
     info_box.classList.add('activeInfo');
 }
@@ -113,6 +120,9 @@ if(userAns==correctAns){
     answer.insertAdjacentHTML("beforeend",tickIconTag);
     console.log("Correct Answer");
     console.log("Your Correct Answers = "+userScore);
+    for(i=0;i<allOptions;i++){
+        option_list.children[i].classList.add("disabled");
+    }
 
 }else{
     answer.classList.add("incorrect");
@@ -204,3 +214,6 @@ next_btn.classList.add("show");
     let TotalQueCountTag= '<span><p>'+index + '</p> of <p>'+ questions.length+'</p> Questions</span>';
     bottom_ques_counter.innerHTML = TotalQueCountTag;
   }
+
+
+  

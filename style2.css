@@ -234,7 +234,7 @@ section .option_list .option:last-child{
 }
 .option_list .option.incorrect{
     color: #721c24;
-    background: f8d7da;
+    background: #f8d7da;
     border: 1px solid #f5c6cb;
 }
 .option_list .option.disabled{

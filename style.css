@@ -45,7 +45,8 @@ body{
 }
 
 .welcomeNote h2{
-    width: 50%;
+    width: 60%;
+    height: 60px;
     text-align: center;
     border: 2px  black solid;
     border-radius: 2rem;
@@ -53,26 +54,38 @@ body{
 }
 .UserSection{
     margin-top: 2rem;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }
 .UserSection input{
     font-size: large;
     font-style: inherit;
-    height: 38px;
+    height: 50px;
     width: 60vh;
     border-radius: 10px;
-    
+    font-weight: 700;
+    text-align: center;
 }
 .UserSection button{
+    margin-top: 10px;
+    height: 50px;
+    width: 15vh;
+    border-radius: 10px;
+    font-weight: 700;
+    
+}
+
+.UserSection .name h2{
     text-decoration: none;
     text-align: center;
-    color: #eceff0;
+    color: #191b1c;
     height: 38px;
     border-radius: 10px;
+    margin-top: 15px;
    
 }
+
 .category{
     margin-top: 2rem;
     display: grid;
